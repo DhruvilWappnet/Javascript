@@ -5,9 +5,9 @@ function toCelsius(fahrenheit) {
 let value = toCelsius(100);
 console.log(value);
 
-let text1 = "The temperature is " + toCelsius(77) + " Celsius";
+var text1 = "The temperature is " + toCelsius(77) + " Celsius";
 
-console.log(text);
+console.log(text1);
 
 // anonymous - function (function without name).
 
@@ -25,7 +25,7 @@ console.log(text);
 myfunction(5);
 
 function myfunction(y) {
-    console.log(y*y);
+    console.log(y * y);
     return y * y;
 }
 
@@ -184,4 +184,5 @@ const person4 = {
 }
 let p5 = person.fullname.bind(person4);
 console.log(p5());
+
 
