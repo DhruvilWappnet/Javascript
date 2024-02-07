@@ -1,0 +1,24 @@
+#dragElement {
+    width: 150px;
+    height: 50px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    cursor: grab;
+  }
+  
+  #dropZone {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  
+  button {
+    margin-right: 10px;
+  }

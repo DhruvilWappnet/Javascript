@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Website</title>
+    <script src="events.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="changecolor()">
+    <h1>Press the button</h1>
+    <button onclick="myfun()">Press</button>
+    <h3>Time:</h3>
+    <p id="demo"></p>
+    <button onclick="stop()">Stop</button>
+
+    <h1>Press the button</h1>
+    <button onmouseout="changecolor()">Press</button>
+
+    <div id="dragElement" draggable="true">Drag me!</div>
+    <div id="dropZone">Drop zone</div>
+
+    <input type="text" id="inputField" placeholder="Type here..." />
+    <button id="copyButton">Copy Text</button>
+    <button id="pasteButton">Paste Text</button>
+  </body>
+</html>
