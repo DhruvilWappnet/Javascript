@@ -1,52 +1,52 @@
-// let p1 = new Promise((resolve, reject) => {
-//     console.log("in promis 1");
-//     resolve(true);
-// })
+let p1 = new Promise((resolve, reject) => {
+    console.log("in promis 1");
+    resolve(true);
+})
 
 
-// let p2 = new Promise((resolve, reject) => {
-//     console.log("in promis 2");
-//     reject(false);
-// })
+let p2 = new Promise((resolve, reject) => {
+    console.log("in promis 2");
+    reject(false);
+})
 
-// p1.then((data) => {
-//     console.log("Accepted",data);
-// })
-// .catch ((data) => {
-//     console.log("Rejected:",data);
-// })
+p1.then((data) => {
+    console.log("Accepted", data);
+})
+    .catch((data) => {
+        console.log("Rejected:", data);
+    })
 
-// p2.then((data) => {
-//     console.log("Accepted",data);
-// })
-// .catch ((data) => {
-//     console.log("Rejected:",data);
-// })
+p2.then((data) => {
+    console.log("Accepted", data);
+})
+    .catch((data) => {
+        console.log("Rejected:", data);
+    })
 
-// let name = "Dhruvil"; // here name is Dhruvil
-// // let name="Yash"; // error
-// {
-//     let name = "Raj"; // here name is Raj
-// }
+let name = "Dhruvil"; // here name is Dhruvil
+// let name="Yash"; // error
+{
+    let name = "Raj"; // here name is Raj
+}
 
-// var x = 10;
-// // Here x is 10
-// {
-//     const x = 2;
-//     // Here x is 2
-// }
-// // Here x is 10
+var x = 10;
+// Here x is 10
+{
+    const x = 2;
+    // Here x is 2
+}
+// Here x is 10
 
 
-// // Arrow Functions
+// Arrow Functions
 
-// // ES5
-// var x = function (x, y) {
-//     return x * y;
-// }
+// ES5
+var x = function (x, y) {
+    return x * y;
+}
 
-// // ES6
-// const x = (x, y) => x * y;
+// ES6
+const x = (x, y) => x * y;
 
 
 const q1 = ["Jan", "Feb", "Mar"];
@@ -184,4 +184,8 @@ console.log(isFinite(10 / 0));
 console.log(isFinite(10 / 1));
 
 import { name, age } from "./module.js"
-console.log(name,age);
+console.log(name, age);
+console.log(import.meta.url);
+
+import message from "./module.js";
+let a = message;
