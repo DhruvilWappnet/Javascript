@@ -1,0 +1,12 @@
+{
+    "firstname":"Dhruvil",
+    "middlename":"Alpeshkumar",
+    "lastname":"Prajapati",
+    "age":10,
+    "place":"Mehsana",
+    "Collage":"Nirma University",
+    "Degree":"Computer Science and enginerring",
+    "Hobby":["Games","Movies","WebSeries"],
+    "person":{"firstname":"Dhruvil","middlename":"Alpeshkumar","lastname":"Prajapati"},
+    "Run":true
+ }

@@ -136,6 +136,9 @@ function sendRequest(method, url) {
     });
 }
 
+// step:
+// 1. create request , 2. open request and difine type and request data, 3. send request , 4. get data and get from callback frunction
+
 sendRequest("GET", URL)
     .then((response) => {
         let data = JSON.parse(response);
@@ -157,3 +160,4 @@ sendRequest("GET", URL)
         console.log(newdata);
     })
     .catch((error) => console.log(error));
+
